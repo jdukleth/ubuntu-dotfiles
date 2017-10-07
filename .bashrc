@@ -117,4 +117,3 @@ source "${HOME}/.bash/.bash_start"
 source "${HOME}/.bash/.bash_aliases"
 source "${HOME}/.bash/.bash_functions"
 export PATH=$HOME/local/bin:$PATH
-export PATH=$HOME/local/bin:$PATH
