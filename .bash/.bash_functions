@@ -9,3 +9,8 @@ function http-permissions() {
     find $1 -type d -exec chmod 755 {} \;
     find $1 -type f -exec chmod 644 {} \;
 }
+
+# Update ConEmu tab title
+function tt {
+    echo -ne "\033]0;"$HOSTNAME"\007"
+}

@@ -110,3 +110,4 @@ source "${HOME}/.bash/.bash_functions"
 export PATH=$HOME/local/bin:$PATH
 
 cd ~
+tt # function to set tab title to hostname
