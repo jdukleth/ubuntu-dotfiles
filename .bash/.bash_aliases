@@ -18,4 +18,4 @@ alias ls='ls -Alh --color=always'
 alias sublime='"/mnt/c/Program Files/Sublime Text 3/sublime_text.exe"'
 
 # Upgrade/Update Ubuntu to latest LTS
-alias update='sudo apt autoremove && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get update && sudo apt autoremove'
+alias update='sudo apt-get autoremove && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get update && sudo apt autoremove'
