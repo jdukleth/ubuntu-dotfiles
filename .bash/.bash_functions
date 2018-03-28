@@ -1,5 +1,5 @@
 # Project Directory Navigation
-function h { cd /mnt/c/Sites/$1; }
+function sa { cd /mnt/c/Sites/$1; }
 function d { cd /var/www/development/jjd/$1; }
 function s { cd /var/www/stage/$1; }
 function p { cd /var/www/production/$1; }
