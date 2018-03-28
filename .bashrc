@@ -104,9 +104,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source "${HOME}/.bash/.bash_start"
 source "${HOME}/.bash/.bash_aliases"
 source "${HOME}/.bash/.bash_functions"
+source "${HOME}/.bash/.bash_start"
 export PATH=$HOME/local/bin:$PATH
 
 cd ~
