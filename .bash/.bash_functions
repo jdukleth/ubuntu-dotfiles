@@ -14,3 +14,5 @@ function http-permissions() {
 function tt {
     echo -ne "\033]0;"$HOSTNAME"\007"
 }
+
+function ssh { command ssh "$@"; tt; }
