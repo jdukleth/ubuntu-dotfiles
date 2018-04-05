@@ -19,7 +19,7 @@ BG_CYAN="\033[46m"
 BG_WHITE="\033[47m"
 
 # Colorize the bash prompt
-export PS1='\[\033[36m\]$PWD\[\033[m\] $(__git_ps1 "(\[\033[32m\]%s\[\033[m\]) ")\[\033[31m\]→\[\033[m\] '
+export PS1='\[\033[36m\]\h:$PWD\[\033[m\] $(__git_ps1 "(\[\033[32m\]%s\[\033[m\]) ")\[\033[31m\]→\[\033[m\] '
 export CLICOLOR=1
 export LSCOLORS=hxFxCxDxBxegedabagacad
 
