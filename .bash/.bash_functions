@@ -16,3 +16,6 @@ function tt {
 }
 
 function ssh { command ssh "$@"; tt; }
+
+# SSH 
+function ssj { ssh jdukleth@$1; tt; }

@@ -13,7 +13,7 @@ alias ......='cd ../../../../..'
 alias ccat='pygmentize -O style=monokai -f console256 -g'
 
 # List Files with More Detail by Default
-alias ls='ls -Alh --color=always'
+alias ll='ls -Alh --color=always'
 
 # Code Editor Shortcuts
 # Update with your own path to Sublime Text executable
