@@ -111,3 +111,6 @@ export PATH=$HOME/local/bin:$PATH
 
 cd ~
 tt # function to set tab title to hostname
+
+shopt -s dotglob # mv hidden files with *
+
