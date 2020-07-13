@@ -15,7 +15,6 @@ function tt {
     echo -ne "\033]0;"$HOSTNAME"\007"
 }
 
-function ssh { command ssh "$@"; tt; }
-
 # SSH 
+function ssh { command ssh "$@"; tt; }
 function ssj { ssh jdukleth@$1; tt; }
