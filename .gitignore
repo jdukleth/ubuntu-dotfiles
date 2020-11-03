@@ -5,3 +5,5 @@
 .ssh/
 .sudo_as_admin_successful~
 .sudo_as_admin_successful
+.gitconfig
+.pm2
