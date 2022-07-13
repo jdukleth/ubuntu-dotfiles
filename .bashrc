@@ -56,5 +56,6 @@ git_branch() {
 
 # Shell Prompt Styling
 export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[\033[00;32m\]\$(git_branch)\[\033[00m\]\$ "
+export PS1="$USER_AND_NAME $DIRECTORY_COLOR $(git_branch_color)$(git_branch)$(prompt_tail) $SHELL_COLOR"
 
 
