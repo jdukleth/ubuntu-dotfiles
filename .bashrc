@@ -29,7 +29,7 @@ fi
 DIRECTORY_COLOR="\[\033[01;38;5;244m\]\w"
 SHELL_COLOR="\[\033[01;38;5;250m\]"
 
-export PS1='$USER_AND_NAME $DIRECTORY_COLOR $(__git_ps1 "(\[\033[32m\]%s\[\033[m\]) ")\[\033[31m\]→\[\033[m\] $SHELL_COLOR'
+export PS1="$USER_AND_NAME $DIRECTORY_COLOR $(__git_ps1 '(\[\033[32m\]%s\[\033[m\]) ')\[\033[31m\]→\[\033[m\] $SHELL_COLOR"
 
 # uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
